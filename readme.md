@@ -1,0 +1,22 @@
+###STEP 1###
+CREATE A BUSINESS CLASS PERSON WITH ATTRIBUTES SAY, LASTNAME AND FIRSTNAME
+###STEP 2###
+CREATE A ITEM PROCESSOR TO MODIFY THE CASE OF FIRSTNAME AND LASTNAME
+###STEP 3###
+CREATE A CONFIGURATION CLASS AND ENABLE BATCH PROCESSING
+###STEP 4###
+TWO PARTS:
+	A. CONFIGURE BEANS TO READ, PROCESS AND WRITE
+	B. CONFIGURE BEANS THAT PERFORM ACTUAL JOB : JOB, STEP
+###STEP 4 A###
+CREATE A JOB COMPLETION LISTENER BEAN THAT BASICALLY CHECKS IF THE BATCHSTATUS IS COMPLETED AND QUERIES THE DATABASE FOR CONFIRMATION AND LOGS THE SAME
+
+###NEXT STEPS###
+1. Investigate about different flavors of and each in depth:
+	ItemReader, ItemProcessor and ItemWriter
+2. What is fieldsetmapper, how does it work?
+3. Read batch architecture
+4. Create a Fundamental category: TOC
+5. Create a Intermediate category: TOC
+6. Create a Advanced category: TOC
+7. Identify real world use cases: TOC
